@@ -1,0 +1,2 @@
+$("#updates").show('slow', function(){$("#updates").hide().delay(30000)})
+

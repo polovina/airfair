@@ -1,0 +1,9 @@
+= form_for(@input, :html=>{:class=>"form-horizontal"}, :remote=>:true) do |f|
+  = f.label 'From'
+  = f.text_field :departure
+  = f.label 'To'
+  = f.text_field :arrival
+  %div.hide
+    = f.submit
+   
+

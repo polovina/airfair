@@ -1,0 +1,25 @@
+%table{:id=> 'outputs', :class=>'table table-striped table-bordered table-condensed'}
+  %thead
+    %tr
+      %th Price
+      %th From
+      %th When
+      %th To
+      %th Back
+      %th Link
+      %th Vendor
+  -if @outputs
+    %tbody
+      - @outputs.each do |output|
+        %tr
+          %td= output.price
+          %td= output.departure
+          %td= output.start_date
+          %td= output.arrival
+          %td= output.return_date
+          %td
+            %a{:href=>output.url}
+              Link
+          %td= output.vendor
+
+

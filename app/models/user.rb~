@@ -1,0 +1,19 @@
+class User < ActiveRecord::Base
+  has_one :input
+  has_many :outputs
+  after_save do |user|
+  user.create_input(:active=>true, :user_id=>user.id)
+  end 
+  
+  
+
+  
+  # Include default devise modules. Others available are:
+  # :token_authenticatable, :encryptable, :confirmable, :lockable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :trackable, :validatable
+
+  # Setup accessible (or protected) attributes for your model
+  attr_accessible :email, :password, :password_confirmation, :remember_me
+
+end

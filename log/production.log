@@ -1,0 +1,107 @@
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-07-12 13:34:11 -0700
+  Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+Migrating to DeviseCreateUsers (20120506005327)
+Migrating to CreateInputs (20120627002921)
+Migrating to CreateOutputs (20120627003001)
+Migrating to AddIntervalToInputs (20120706202135)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-07-12 13:38:11 -0700
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/_links.erb (2.4ms)
+Rendered devise/sessions/new.html.erb within layouts/application (150.5ms)
+Completed 500 Internal Server Error in 515ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    1: !!! 5
+    2: %html
+    3:   %head
+    4:     = stylesheet_link_tag 'application', 'formtastic'
+    5:     = javascript_include_tag 'application'
+    6:     = csrf_meta_tags
+    7: 
+  app/views/layouts/application.html.haml:4:in `_app_views_layouts_application_html_haml__1057863029_84635060'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-07-12 13:40:35 -0700
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/_links.erb (10.7ms)
+Rendered devise/sessions/new.html.erb within layouts/application (39.6ms)
+Completed 500 Internal Server Error in 50ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    1: !!! 5
+    2: %html
+    3:   %head
+    4:     = stylesheet_link_tag 'application'
+    5:     = javascript_include_tag 'application'
+    6:     = csrf_meta_tags
+    7: 
+  app/views/layouts/application.html.haml:4:in `_app_views_layouts_application_html_haml__1057863029_84635060'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+Compiled dataTables/jquery.dataTables.js  (4ms)  (pid 3177)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-07-12 14:01:39 -0700
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/_links.erb (2.6ms)
+Rendered devise/sessions/new.html.erb within layouts/application (45.1ms)
+Completed 500 Internal Server Error in 465ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    1: !!! 5
+    2: %html
+    3:   %head
+    4:     = stylesheet_link_tag 'application'
+    5:     = javascript_include_tag 'application'
+    6:     = csrf_meta_tags
+    7: 
+  app/views/layouts/application.html.haml:4:in `_app_views_layouts_application_html_haml___70015683_94401700'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+Compiled dataTables/jquery.dataTables.api.fnGetColumnData.js  (11ms)  (pid 3487)
+Compiled dataTables/jquery.dataTables.api.fnReloadAjax.js  (0ms)  (pid 3487)
+Compiled dataTables/jquery.dataTables.bootstrap.js  (3ms)  (pid 3487)
+Compiled dataTables/jquery.dataTables.js  (9ms)  (pid 3487)
+Compiled dataTables/jquery.dataTables.sorting.numbersHtml.js  (0ms)  (pid 3487)
+Compiled dataTables/jquery.dataTables.typeDetection.numbersHtml.js  (0ms)  (pid 3487)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-07-12 14:12:54 -0700
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/_links.erb (11.4ms)
+Rendered devise/sessions/new.html.erb within layouts/application (77.7ms)
+Completed 500 Internal Server Error in 567ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    1: !!! 5
+    2: %html
+    3:   %head
+    4:     = stylesheet_link_tag 'application'
+    5:     = javascript_include_tag 'application'
+    6:     = csrf_meta_tags
+    7: 
+  app/views/layouts/application.html.haml:4:in `_app_views_layouts_application_html_haml__547952790_93557970'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.4ms)

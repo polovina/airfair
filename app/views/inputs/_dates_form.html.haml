@@ -1,0 +1,10 @@
+= form_for(@input, :html=>{:class=>"form-horizontal"}, :remote=>:true) do |f|
+  = f.label 'When'
+  = f.text_field :start_date
+  = f.label 'Return'
+  = f.text_field :return_date
+  %div.hide
+    = f.submit
+    
+    
+    

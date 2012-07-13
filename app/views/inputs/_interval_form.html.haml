@@ -1,0 +1,7 @@
+= form_for(@input, :html=>{:class=>"form-horizontal"}, :remote=>:true) do |f|
+  = f.label 'Maximum price'
+  = f.text_field :threshold
+  = f.label "Check frequency (hours)"
+  = f.text_field :interval
+  %div.hide
+    = f.submit

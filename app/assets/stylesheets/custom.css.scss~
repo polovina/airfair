@@ -1,0 +1,14 @@
+@import "bootstrap";
+
+#updates {
+    
+    color: green;
+    font-weight: bold;
+    margin: 0;
+    text-rendering: optimizelegibility;
+}
+
+#main {
+margin-top: 60px;
+}
+
